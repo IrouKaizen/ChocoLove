@@ -8,41 +8,37 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-
-    https://github.com/IrouKaizen/ChocoLove.git
-
     <header class="header">
         <div class="header__border"></div>
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <img src="" alt="logo">
-                ChocoLove
+                <i class="ri-heart-2-fill"></i> ChocoLove
             </a>
 
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#home" class="nav__link">
-                            <i class="ri-home-5-fill"></i>
-                            <span>Home</span>
+                            <i class="ri-home-heart-line"></i>
+                            <span>Accueil</span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="ri-award-fill"></i>
-                            <span>About</span>
+                            <i class="ri-file-info-line"></i>
+                            <span>A propos</span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#steps" class="nav__link">
-                            <i class="ri-compass-3-fill"></i>
-                            <span>Steps</span>
+                            <i class="ri-bubble-chart-fill"></i>
+                            <span>Arômes</span>
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#testimonial" class="nav__link">
-                            <i class="ri-message-3-fill"></i>
-                            <span>testimonial</span>
+                            <i class="ri-team-line"></i>
+                            <span>L' équipe</span>
                         </a>
                     </li>
                 </ul>
@@ -56,21 +52,21 @@
             <div class="home__container container grid">
                 <div class="home__data">
                     <h3 class="home__subtitle">
-                        EXCEPTIONAL QUALITY
+                        LA QUALITE SUPERIEURE
                     </h3>
                     <h1 class="home__title">
-                        It's time for a <br>
-                        good coffee
+                        Offrez-vous un <br>
+                        Bon chocolat
                         <img src="photos/gato-removebg-preview.png" alt="">
                     </h1>
                     <p class="home__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquam sed quos, atque nobis minima doloribus tempora, nisi nam facilis quae. Dolorem laudantium ratione quidem, nostrum quis soluta ea explicabo!
+                        Du chocolat, il y en a de toutes variétés & de toutes formes et conçus par de diverses compagnies. Mais, avez-vous déjà entendu parlé de <div class="cho"> <i class="ri-heart-2-fill"></i> ChocoLove ?</div>
                     </p>
-                    <a href="#" class="button">
-                        Get started <i class="ri-arrow-right-s-line"></i>
+                    <a href="#img" class="button">
+                        En savoir plus <i class="ri-arrow-right-s-line"></i>
                     </a>
                 </div>
-                <img src="photos/acc-removebg-preview.png" alt="" class="home__img">
+                <img src="photos/acc-removebg-preview.png" alt="" class="home__img" id="img">
             </div>
         </section>
 
@@ -79,10 +75,13 @@
                 <div class="products__container container grid">
                     <div class="products__data">
                         <a href="#about" class="products__button">
-                            Scroll Down <i class="ri-arrow-down-s-line"></i>
+                            A propos de nous <i class="ri-arrow-down-s-line"></i>
                         </a>
                         <p class="products__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, beatae. Corporis officiis numquam ratione officia aut earum ea vel beatae, velit neque sequi commodi asperiores sint pariatur omnis tempore laudantium.
+                            Nous vous offrons du chocolat sous diverses formes : en boule, en tablette, fondu et en poudre. En tenant compte bien-sûr de vos goûts et envies.
+                        </p>
+                        <p class="products__description">
+                            Ci-dessous, certaines images des formes de chocolats que nous avons déjà eu à commercialiser.
                         </p>
                     </div>
                     <div class="products__content">
@@ -101,11 +100,6 @@
                             <h3 class="products__name">Fondu</h3>
                             <span class="products__price">15$</span>
                         </article>
-                        <article class="products__card">
-                            <img src="photos/bOULE.jpg" alt="" class="products__img">
-                            <h3 class="products__name">En boule</h3>
-                            <span class="products__price">12$</span>
-                        </article>
                     </div>
                 </div>
             </div>
@@ -116,13 +110,16 @@
                 <div class="about__container container grid">
                     <div class="about__data">
                         <h2 class="section__title">
-                            Our story
+                            Nous !
                         </h2>
                         <p class="about__description">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore dolore omnis laboriosam doloribus commodi minus dolor. Sunt, quod aperiam. Atque sit ab eos non odio aperiam, facere error eaque. Officia.
+                            Nous sommes une compagnie de fabrique de chocolats avec des ingrédients naturels importés depuis le Ghana puis traités avec nos machines depuis 2002.
+                        </p>
+                        <p class="about__description">
+                            Nos clients nous font confiance !
                         </p>
                     </div>
-                    <img src="photos/log.jpg" alt="" class="about__img">
+                    <img src="photos/top1.jpg" alt="" class="about__img">
                 </div>
             </div>
         </section>
@@ -130,7 +127,7 @@
         <section class="steps section" id="steps">
             <div class="steps__bg section">
                 <h2 class="section__title">
-                    Steps of manufacturing our products
+                    Les différents arômes de chocolats que nous produisont
                 </h2>
                 <div class="steps__container container grid">
                     <img src="photos/steps-coffee-beans.png" alt="" class="steps__bg-img">
@@ -143,7 +140,7 @@
                                 <img src="photos/arome_cacao-removebg-preview.png" alt="" class="steps__img">
                             </div>
                             <p class="steps__description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero provident nihil deserunt nostrum quaerat, nulla minus vel in voluptas. Odit hic tenetur quam laboriosam doloribus atque porro explicabo accusamus dicta!
+                                Avec du Cacao pur.
                             </p>
                         </div>
 
@@ -155,7 +152,7 @@
                                 <img src="photos/arome_coffe-removebg-preview.png" alt="" class="steps__img">
                             </div>
                             <p class="steps__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minima eius ullam enim laboriosam dolore! Deleniti animi eaque quibusdam odit, tempore esse at autem fugit sint officiis odio, maxime excepturi.
+                                Le café noir pur ou un mélange de cacao et de café.
                             </p>
                         </div>
 
@@ -167,7 +164,7 @@
                                 <img src="photos/arome_noix-removebg-preview.png" alt="" class="steps__img">
                             </div>
                             <p class="steps__description">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, dolorem? Veritatis quos, magni sit deserunt illo odio tempora non provident labore quo voluptatem eius quod, at consectetur laudantium ipsum eaque?
+                                Noix de coco depuis le sud Ghana !
                             </p>
                         </div>
                     </div>
@@ -175,17 +172,19 @@
             </div>
         </section>
 
-        <section class="testimonial section" id="testimonial">
-            <div class="testimonial__container container grid">
-                <div class="testimonial__data">
-                    <h2 class="section__title">
-                        Coffee is the best drink in the morning.
-                    </h2>
-                    <span class="testimonial__name">
-                        Irene Saphir
-                    </span>
+        <section class="testimonial" id="testimonial">
+            <div class="testimonial__bg section">
+                <div class="testimonial__container container grid">
+                    <div class="testimonial__data">
+                        <h2 class="section__title">
+                            Notre équipe
+                        </h2>
+                        <span class="testimonial__name">
+                            Nous comptons à ce jour plus de 300 employés (commerciaux, cultivateurs, comptables, secrétaires, trésorières, chauffeurs, gardiens, contrôleurs, etc...).
+                        </span>
+                    </div>
+                    <img src="photos/top2.jpg" class="testimonial__img"></img>
                 </div>
-                <img src="photos/gift.jpg" class="testimonial__img"></img>
             </div>
         </section>
 
@@ -193,47 +192,53 @@
 
     <footer class="footer">
         <div class="footer__bg">
+            <img src="photos/steps-coffee-beans.png" alt="" class="footer__bg-img">
             <div class="footer__container container grid">
                 <div class="footer__data grid">
                     <div class="">
                         <a href="" class="footer__logo">
                             <img src="" alt="">
-                            ChocoLove
+                            <i class="ri-heart-2-fill"></i> ChocoLove
                         </a>
                         <h3 class="footer__title">
-                            Sign up for our newlettres
+                            Abonnez-vous pour recevoir nos articles & propositions
+                            <br>
+                            et nous vous promettons que la qualité !
                         </h3>
                     </div>
                     <form action="" class="footer__form grid">
                         <input type="email" placeholder="Entrez votre adresse E-mail" class="footer__input">
-                        <button class="button footer__buton" type="submit">
-                            Subscribe <i class="ri-arrow-right-s-line"></i>
+                        <button class="button footer__button" type="submit">
+                            S'abonner <i class="ri-arrow-right-s-line"></i>
                         </button>
-                        <p class="footer__description">
-                            We care about your data. Read our
-                            <a href="#" class="footer__privacy"> Privacy Policy</a>
-                        </p>
                     </form>
                 </div>
-            </div>
-            <div class="footer__content grid">
-                <div class="footer__social">
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-fill"></i>
-                    </a>
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-twitter-fill"></i>
-                    </a>
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-linkedin-fill"></i>
-                    </a>
+                <div class="footer__content grid">
+                    <div class="footer__social">
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social-link">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                    <span class="footer__copy">
+                        &#169; Copyright Iroukode. Tous droits reservés
+                    </span>
                 </div>
-                <span class="footer__copy">
-                    &#169; Copyright Iroukode. Tous droits reservés
-                </span>
             </div>
         </div>
     </footer>
+
+    <!--Scroll up-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
